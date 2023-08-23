@@ -32,7 +32,7 @@ public class Boat implements WaterVehicle {
     }
 
     @Override
-    public String getVehicleCapacity()
+    public int getVehicleCapacity()
     {
         return this.capacity;
     }
