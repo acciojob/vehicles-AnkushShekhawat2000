@@ -2,14 +2,15 @@ package com.driver;
 
 public class Boat implements WaterVehicle {
     private String name;
-    private String capacity;
+    private int capacity;
 
-    public Boat(String name, String capacity) {
+    public Boat(String name, int capacity) {
         this.name = name;
         this.capacity = capacity;
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -17,11 +18,11 @@ public class Boat implements WaterVehicle {
         this.name = name;
     }
 
-    public String getCapacity() {
+    public int getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(String capacity) {
+    public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
 
